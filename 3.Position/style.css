@@ -1,0 +1,9 @@
+.fixed {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

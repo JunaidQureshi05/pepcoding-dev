@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  background-color: #f0183f;
+  padding: 20px;
+  color: white;
+  width: 500px;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+.form-group label {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#name,
+#password,
+#email {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: #f2466a;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+select {
+  border: none;
+  background-color: #f2466a;
+  color: white;
+  /* font-size: 16px; */
+  border-radius: 10px;
+  padding: 5px !important;
+  height: 30px !important;
+}
+option {
+  background-color: #f2466a;
+}
+#password::placeholder {
+  color: lightgray;
+}
+select {
+  width: 100%;
+  height: 30px;
+}
+
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input[type='submit'] {
+  background-color: #17baa7;
+}
+
+input[type='reset'] {
+  background-color: #7dba27;
+}
