@@ -9,21 +9,33 @@
   </head>
   <body>
     <div class="container">
-      <form>
-        <p class="primary">Login</p>
-        <h1>Log in to</h1>
+      <form action="">
+        <span class="sm">Login</span>
+        <span class="l">Log in to</span>
         <div class="form-group">
           <label for="email">Email-Id</label>
-          <input type="email" name="email" id="email" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@example.com"
+          />
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" name="" id="" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="********"
+          />
         </div>
-        <input type="submit" value="Sign in" />
+        <input type="submit" value="Sign In" />
         <a href="#">Forget Password</a>
-        <a href="#" class="btn"> <div class="border">+</div> </a>
       </form>
+      <div class="plus-badge">
+        <div class="border">+</div>
+      </div>
     </div>
   </body>
 </html>
