@@ -64,7 +64,7 @@ main {
   right: 100px;
   background-color: #251f1f7a;
   transform: translate(0, -800px);
-  transition: all 1s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .show {
@@ -125,4 +125,21 @@ input {
   width: 100%;
   height: 100%;
   padding: 10px;
+}
+
+.content-container {
+  position: relative;
+}
+
+.fa-times {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#add {
+  cursor: pointer;
 }
